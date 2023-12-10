@@ -113,13 +113,16 @@ const part2 = (rawInput: string) => {
   return sumArrayItems(roundPoints);
 };
 
+const input = `
+A Y
+B X
+C Z
+`;
 run({
   part1: {
     tests: [
       {
-        input: `A Y
-                B X
-                C Z`,
+        input,
         expected: 15,
       },
     ],
@@ -128,9 +131,7 @@ run({
   part2: {
     tests: [
       {
-        input: `A Y
-                B X
-                C Z`,
+        input,
         expected: 12,
       },
     ],

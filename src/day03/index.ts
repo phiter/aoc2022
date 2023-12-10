@@ -44,17 +44,20 @@ const part2 = (rawInput: string) => {
   }
   return totalSum;
 };
+const input = `
+vJrwpWtwJgWrhcsFMMfFFhFp
+jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
+PmmdzqPrVvPwwTWBwg
+wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
+ttgJtRGJQctTZtZT
+CrZsJsPPZsGzwwsLwLmpwMDw
+`;
 
 run({
   part1: {
     tests: [
       {
-        input: `vJrwpWtwJgWrhcsFMMfFFhFp
-                jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
-                PmmdzqPrVvPwwTWBwg
-                wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
-                ttgJtRGJQctTZtZT
-                CrZsJsPPZsGzwwsLwLmpwMDw`,
+        input,
         expected: 157,
       },
     ],
@@ -63,12 +66,7 @@ run({
   part2: {
     tests: [
       {
-        input: `vJrwpWtwJgWrhcsFMMfFFhFp
-                jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
-                PmmdzqPrVvPwwTWBwg
-                wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
-                ttgJtRGJQctTZtZT
-                CrZsJsPPZsGzwwsLwLmpwMDw`,
+        input,
         expected: 70,
       },
     ],
